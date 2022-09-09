@@ -3,7 +3,7 @@ var sass = require('gulp-sass');
 var babel = require('gulp-babel');
 var rename = require('gulp-rename');
 var uglify = require('gulp-uglify');
-var cleancss = require('gulp-clean-css');
+// var cleancss = require('gulp-clean-css');
 var image = require('gulp-image');
 
 
@@ -25,7 +25,7 @@ var paths = {
 function styles() {
     return gulp.src(paths.styles.src)
         .pipe(sass())
-        .pipe(cleancss())
+        // .pipe(cleancss())
         .pipe(rename({
             basename: 'main'
         }))

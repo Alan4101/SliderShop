@@ -50,7 +50,6 @@ sliderArrow.addEventListener('click', ()=>{
         }
     })
 
-    // console.log(count);
 });
 /* LITTLE NAV IMG*/
 navSlider.addEventListener('click', (e)=>{
